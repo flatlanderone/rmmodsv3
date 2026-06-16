@@ -1,11 +1,18 @@
 ﻿Key,english
 //orange POI name with asterisk variant,
+army_camp_08,[FFB400]Forward Supply Depot[-]*
 army_camp_09,[FFB400]Camp Hollow Point[-]*
 army_camp_10,[FFB400]Green Hill[-]*
 bombshelter_03,[FFB400]The Cylinder[-]*
 bombshelter_04,[FFB400]Bomb Shelter 41[-]*
 countrytown_church_02,[FFB400]Church Of The Blinding Faith[-]*
+docks_05,[FFB400]Hook, Line, & Sinker[-]*
+downtown_filler_04,[FFB400]z-work[-]*
+downtown_filler_21,[FFB400]Meat You Here Butchery[-]*
+downtown_filler_26,[FFB400]Hooligan's Corner[-]*
+downtown_filler_29,[FFB400]The Molar & Moral Building[-]*
 farm_18,[FFB400]McOivey Farms[-]*
+farm_20,[FFB400]Sprout & Sons Nursery[-]*
 house_modern_32,[FFB400]The Wade Residence[-]*
 house_modern_33,[FFB400]The Prado Residence[-]*
 house_modern_34,[FFB400]Casa Carneiro[-]*
@@ -44,9 +51,11 @@ lot_countrytown_08,[FFB400]Rusty's Razors[-]*
 lot_countrytown_10,[FFB400]Red Star Gift Shop[-]*
 lot_countrytown_12,[FFB400]Cleetus' Car Recycling[-]*
 lot_countrytown_13,[FFB400]Car Impound Lot[-]*
+remnant_carwash_02,[FFB400]Cleanico Center[-]*
 remnant_downtown_filler_03,[FFB400]Couch Kingz Court[-]*
 remnant_downtown_filler_10,[FFB400]PlusPoint Offices[-]*
 remnant_downtown_filler_13,[FFB400]Bean Counter Court[-]*
+remnant_downtown_filler_31,[FFB400]Karate Kamp[-]*
 remnant_industrial_large_01,[FFB400]Infested Construction Site[-]*
 remnant_industrial_strip_07,[FFB400]Warehouse Outpost[-]*
 remnant_industrial_strip_08,[FFB400]Ice Factory[-]*
@@ -62,11 +71,11 @@ rubble_wasteland_filler_09,[FFB400]Faraway Storage[-]*
 site_camp_03,[FFB400]Tranquil Terraced Retreat[-]*
 site_camp_11,[FFB400]The Circle[-]*
 site_grave_03,[FFB400]The Executioner's Trench[-]*
+site_grave_06,[FFB400]Eagle Hill Cemetery[-]*
 site_shack_02,[FFB400]The Love Shack[-]*
+site_utility_05,[FFB400]PGC Compressor Station #5[-]*
 site_vendor_03,[FFB400]Culinary Cruiser[-]*
 soccer_stadium_01,[FFB400]Champions Coliseum[-]*
 water_tower_04,[FFB400]Water Tower #4[-]*
-lot_countryres_14,[FFB400]Waterworks Substation[-]**
-lot_countryres_15,[FFB400]Abandonned Construction Site[-]**
 remnant_commercial_strip_06,[FFB400]Body and Saul Plaza[-]**
 remnant_industrial_large_02,[FFB400]Dept. of Transportation Depot[-]**

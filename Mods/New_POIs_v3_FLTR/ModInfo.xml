@@ -3,6 +3,6 @@
 	<DisplayName value="Find New POIs in 7 Days To Die 3.0" />
 	<Description value="This mod lets you find easily the new POIs added in 7 Days To Die 3.0. Their name appears in orange and is followed by an asterisk. You can also use a less flashy version by copying the Localization.csv file from the \Variants\Asterisk only folder to the Config folder." />
 	<Author value="flatlander" />
-	<Version value="3.0.1.0" />
+	<Version value="3.0.1.1" />
 	<Website value="https://github.com/flatlanderone" />
 </xml>

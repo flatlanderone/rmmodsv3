@@ -1,4 +1,4 @@
-# Find New POIs in 7 Days To Die 3.0 - version 3.0.1.0
+# Find New POIs in 7 Days To Die 3.0 - version 3.0.1.1
 
 ## Overview
 
@@ -28,7 +28,20 @@ The mod is inspired by CautiousPancake's **New POI Highlight** for 7 Days To Die
  - **Author**: Flat Lander - [GitHub](https://github.com/flatlanderone) / [Nexus Mods](https://next.nexusmods.com/profile/flatlanderone)
  - **Download page**: [Find New POIs in 7 Days To Die 3.0](https://www.nexusmods.com/games/7daystodie/mods/10708)
  - **Initial release**: 3.0.1.0 (2026-06-16)
+ - **THis release**: 3.0.1.1 (2026-06-17)
  
-## Changelogs
+## Changelogs for version 3.0.1.1
 
-n/a
+### Localization.csv
+ - Added the following POIs:
+  - army_camp_08
+  - docks_05
+  - downtown_filler_04
+  - downtown_filler_21
+  - downtown_filler_26
+  - downtown_filler_29
+  - farm_20
+  - remnant_carwash_02
+  - remnant_downtown_filler_31
+  - site_grave_06
+  - site_utility_05
