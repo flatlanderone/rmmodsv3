@@ -1,0 +1,16 @@
+<RamblingMan>
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V3') and game_version() >= version(1,3,0)">
+
+<!-- Changed TraderStageTemplate attribute to avoid making bicycles and bicycle parts always for sale. -->
+<setattribute xpath="/items/item[contains(@name,'Horse')]/property[@name='TraderStageTemplate']" name="value">horseFLTR</setattribute>
+
+<!-- *** Set trader category for horses to TCMounts. -->
+
+	<append xpath="/items/item[contains(@name,'Horse')]">
+		<property name="Group" value="Science,TCMounts"/>
+	</append>
+
+</if>
+</conditional>
+</RamblingMan>

@@ -1,0 +1,52 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V3') and game_version() >= version(1,3,0)">
+
+<!-- Set all horses to be for sale at all game stages.  horseFLTR is set in items.xml -->
+
+<append xpath="/traders/traderstage_templates">
+		<traderstage_template name="horseFLTR">
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+</append>
+
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='groupHorses']"/>
+
+
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']/item[@group='groupHorses']"/>
+
+<!-- Set all horses to be always for sale. -->
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+			<item name="vehicleLightBrownHorsePlaceable"/>
+			<item name="vehicleDarkBrownHorsePlaceable"/>
+			<item name="vehicleMilkBrownHorsePlaceable"/>
+			<item name="vehicleWhiteDotHorsePlaceable"/>
+			<item name="vehicleWhiteHorsePlaceable"/>
+			<item name="vehicleYellowHorsePlaceable"/>
+<!-- *** VEHICLE MODS -->
+	<!-- <item name="modVehicleArmor"/> -->
+	<!-- <item name="modVehicleExpandedSeat"/> -->
+	<item name="modVehicleFuelSaver"/>
+	<!-- <item name="modVehicleOffRoadHeadlights"/> -->
+	<!-- <item name="modVehiclePlow"/> -->
+	<!-- <item name="modVehicleReserveFuelTank"/> -->
+	<item name="modVehicleStorage"/>
+	<item name="modVehicleSuperCharger"/>
+			
+</append>
+
+<!-- Set all Vehicle mods to be for sale at all game stages. modVehicleFLTR is set in item_modifiers.xml  -->
+
+<!-- NOTE: In vanilla, only vehicle mod schematics are for sale. Mods must be looted or crafted. Oversight?   -->
+
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="modHorseFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+
+</if>
+</conditional>
+</RamblingMan>

@@ -1,7 +1,8 @@
-<ramblingman>
+<RamblingMan>
 
 <conditional>
-<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+<if cond="mod_loaded('Telrics_Horses_V3') and game_version() >= version(1,3,0)">
+
 <append xpath="/gameevents">
 <!-- StartingHorseBundleFTLR Add Items event. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml. -->
 
@@ -16,4 +17,4 @@
 </if>
 </conditional>
 
-</ramblingman>
+</RamblingMan>
