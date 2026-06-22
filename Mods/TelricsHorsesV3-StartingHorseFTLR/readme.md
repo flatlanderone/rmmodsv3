@@ -26,8 +26,8 @@
  - **Author**: Flat Lander - [GitHub](https://github.com/flatlanderone/flatlander-releases) / [Nexus Mods](https://next.nexusmods.com/profile/flatlanderone)
  - **Download page**: [Starting Horse For Streamers and Busy People](https://www.nexusmods.com/7daystodie/mods/9909)
  - **Previous release**: 2.5.1.0 (2026-03-22)
- - **This release**: 3.0.1.1 (2026-06-21)
+ - **This release**: 3.0.1.1 (2026-06-22)
 
 ## Changelog for 3.0.1.1
 
-- Updated to 7 Days To Die 3.0. Experimental and  Telrics Horses V3.
+- Updated to 7 Days To Die 3.0. Experimental and Telrics Horses V3.
