@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="StartingBicycleFTLR" /> <!-- no spaces -->
+	<DisplayName value="Starting Bicycle and Helmet Light Mod for Streamers and Busy People" />
+	<Description value="Starting Bicycle and Helmet Light Mod for Streamers and Busy People lets you start your zombie-slaying adventures with the bicycle. Don't forget to install the included storage mods, wear the classy glasses and equip the helmet light." />
+	<Author value="flatlander" />
+	<Version value="3.0.1.1" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>
