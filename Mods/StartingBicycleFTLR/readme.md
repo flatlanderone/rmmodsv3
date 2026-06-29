@@ -4,7 +4,7 @@
 **Starting Bicycle and Helmet Light Mod for Streamers and Busy People** lets you start your zombie-slaying adventures with the bicycle. Don't forget to install the included storage and helmet light mods and wear the classy glasses.
 
 ## Requirements
-  - 7 Days to Die v2.5 and later. Compatible wirh 7 Days To Die 3.0.
+  - 7 Days to Die v2.5 and later. Compatible with 7 Days To Die 3.0.
 
 ## Manual installation
  1. Download the mod file.
@@ -12,7 +12,7 @@
  3. Copy the **StartingBicycleFTLR** folder to the 7 Days to Die Mods folder. The default location is **%APPDATA%\7DaysToDie\Mods**.
 
 ## Important notes
- 1. Removing the mod is not safe, as with all mods that add custom items. Always make a full backup copy of your game save before attemptng to remove a mod.
+ 1. Removing the mod is not safe, as with all mods that add custom items. Always make a full backup copy of your game save before attempting to remove a mod.
 
 ## Bug reports and feature suggestions
  - [GitHub](https://github.com/flatlanderone/flatlander-releases/issues) (preferred).
