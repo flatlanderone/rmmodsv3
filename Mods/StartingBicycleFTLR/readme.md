@@ -12,7 +12,7 @@
  3. Copy the **StartingBicycleFTLR** folder to the 7 Days to Die Mods folder. The default location is **%APPDATA%\7DaysToDie\Mods**.
 
 ## Important notes
- 1. Removing the mod is probably safe, but you should always make a backup of your game save.
+ 1. Removing the mod is not safe, as with all mods that add custom items. Always make a full backup copy of your game save before attemptng to remove a mod.
 
 ## Bug reports and feature suggestions
  - [GitHub](https://github.com/flatlanderone/flatlander-releases/issues) (preferred).
