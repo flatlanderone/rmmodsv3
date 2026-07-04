@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<Name value="HotFixRevolverMagazineSizeFLTR" />
+	<DisplayName value="Hotfix for the Revolver Magazine Size Issue" />
+	<Version value="3.0.1.0" />
+	<Description value="This hotfix removes the MagazineSize stat from the magnitude stats block for gunHandgunT0PipePistol and gunHandgunT2Magnum44 in order to prevent the spawning of these weapons with 10-round magazines." />
+	<Author value="flatlander" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>

@@ -1,0 +1,9 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('Combat_Sandbox_FLTR') == false">
+	<remove xpath="/items/item[@name='gunHandgunT0PipePistol' or @name='gunHandgunT2Magnum44']/stats/stat[@name='MagazineSize']"/>
+</if>
+</conditional>
+
+</RamblingMan>
