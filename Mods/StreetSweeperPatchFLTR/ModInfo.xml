@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<Name value="StreetSweeperPatchFLTR" />
+	<DisplayName value="StreetSweeperPatchFLTR" />
+	<Version value="3.2.0.100" />
+	<Description value="This modlet gives the Street Sweeper the gear and sound setup of the minibike. It also adds the missing localization name for the vehicle." />
+	<Author value="flatlander" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>
