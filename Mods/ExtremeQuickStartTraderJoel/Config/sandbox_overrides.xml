@@ -1,0 +1,6 @@
+<RamblingMan>
+	<append xpath="/sandbox_overrides">
+		<sandbox_override option="IntroQuestEnabled" />
+		<sandbox_override option="IntroChallengesEnabled" />
+	</append>
+</RamblingMan>
