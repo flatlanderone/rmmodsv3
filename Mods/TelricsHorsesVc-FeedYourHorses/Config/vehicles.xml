@@ -1,0 +1,105 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+<!-- 
+	fuelKmPerL	10 	5 gas per 2 km 
+					2,5 gas per 1 km
+					25 gas per 10 km
+
+	fuelKmPerL	5 	10 gas per 2 km 
+					5 gas per 1 km
+					50 gas per 10 km
+					100 gas per 20 km
+					500 gas per 100 km
+
+	fuelKmPerL	1 	50 gas per 2 km 
+					25 gas per 1 km
+					250 gas per 10 km
+					
+	fuelKmPerL	0,1 500 gas per 2 km 
+					250 gas per 1 km
+					2500 gas per 10 km
+					
+-->
+
+<!-- Add fuelKmPerL value for the new fuel types. -->
+<set xpath="//vehicle[contains(@name,'Horse')]/property[@class='engine']/property[@name='fuelKmPerL']/@value">5</set>
+
+
+<!-- Add new fuel type. Set tank capacity.
+
+A tank capacity of 4 fits 100 units of fuel, eg 100 units of Horse mix.
+
+TODO: add additional fuel types.
+
+-->
+<set xpath="//vehicle[contains(@name,'Horse')]/property[@class='fuelTank']">
+			<property name="class" value="FuelTank"/>
+			<property name="fuelType" value="HorseMixFTLR" />
+			<property name="capacity" value="4"/>
+</set>
+
+</if>
+</conditional>
+
+
+
+<!-- 
+
+
+NOTES
+
+4x4 2500 gas for 24% tank capacity 400 1% = 100 gas
+
+<property name="fuelKmPerL" value=".1"/>
+
+
+motorbike
+2500 gas for 83% tank capacity 120 1% = 30 gas
+<property name="fuelKmPerL" value=".2"/>
+
+
+1000 gas for 100% tank capacity 40  1% = 10 gas
+
+1 gas can = 0.04 l
+10 gas cans = 0.4
+
+	<property name="fuelKmPerL" value=".4"/>
+
+0,4 km na litr	
+	
+	7% 40 l
+	
+	
+200m na 10 gas cans	
+
+2000 fv for full 40 tank
+
+0.02 of one gas can
+> -->
+		
+
+		
+
+<!-- 
+
+Reference
+
+O-Score
+Version: 2.3.18.1533
+	[ Vehicles ]
+		- Added the ability to change the type of fuel a vehicle can use.
+		- Add a new property to vehicles.xml to add support.
+			<configs>
+				<append xpath="//vehicle[@name='vehicleMinibike']/property[@class='fuelTank']">
+					<property name="fuelType" value="drinkJarRiverWater" />
+				</append>
+			</configs>
+		- Items being used must have FuelValue property on it
+			<append xpath="//item[@name='drinkJarRiverWater']">
+				<property name="FuelValue" value="100" />
+			</append> -->
+
+
+</RamblingMan>

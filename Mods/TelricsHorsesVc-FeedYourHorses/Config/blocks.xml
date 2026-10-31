@@ -1,0 +1,31 @@
+<RamblingMan>
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+
+<append xpath="/blocks/block[@name='campfire']/property[@class='Workstation']">
+	<property name="CraftingAreaRecipes" value="player,campfire"/>
+</append>
+
+
+<!-- <block name="palletBagCowFeedBaseFull"></block> -->
+
+
+</if>
+</conditional>
+
+
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod')">
+
+<append xpath="/blocks/block[@name='campfire']/property[@class='Workstation']">
+	<property name="CraftingAreaRecipes" value="player,campfire"/>
+</append>
+
+
+<!-- <block name="palletBagCowFeedBaseFull"></block> -->
+
+
+</if>
+</conditional>
+
+</RamblingMan>

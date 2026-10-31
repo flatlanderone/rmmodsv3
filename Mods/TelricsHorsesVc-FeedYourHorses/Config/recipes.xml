@@ -1,0 +1,70 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+
+<append xpath="/recipes">
+<!-- Basic Horsemix recipe. Backpack craffting.  -->
+	<recipe name="HorseMixFTLR" count="20" craft_time="10" tags="perkMasterChef,packMuleCrafting">
+		
+		<!-- replace with wild oats -->
+		<ingredient name="foodCropCorn" count="2"/>
+		<ingredient name="treePlantedOak1m" count="2"/>
+		<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+		<ingredient name="resourceYuccaFibers" count="20"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>
+	</recipe>
+
+<!-- HorseMixFTLR campfire. Produces 80 unts. 
+
+Unlock with Living off the land?
+-->
+	<recipe name="HorseMixBundleFTLR" count="1" craft_time="40" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<!-- replace with wild oats -->
+		<ingredient name="foodCornMeal" count="3"/>
+		<!-- replace with acorn meal preppo -->	
+		<ingredient name="treePlantedOak1m" count="3"/>
+		<ingredient name="resourceCropGoldenrodPlant" count="3"/>	
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="bucketRiverWater" count="1"/>
+		<!-- additional output -->
+		
+	</recipe>
+</append>
+</if>
+</conditional>
+
+<!-- *** Wild West Mod --> 
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod')">
+
+</if>
+</conditional>
+
+
+
+
+<!-- 
+If alternate fuel is instroduced
+
+Add oat meal 
+Change cornmeal into oat meal
+BOILED CORN
+BOILED POTATO
+Bushcraft recipes
+prepper recipes
+vitamins
+acorn flour preppo 
+wild proso
+siano
+wild owies - oats
+ Wild Wheat in Grass -->
+
+<!-- 
+
+https://www.pzhk.pl/2019/04/plody-rolne-w-zywieniu-koni-czesc-i/
+Dobrej jakości siano i owies, wszystkim powszechnie znane jako standardowa pasza objętościowa i treściwa, są chętnie wykorzystywane w codziennym żywieniu i opiece nad koniem hodowlanym. Zawsze powinny one stanowić podstawę dawek pokarmowych. Dobrej jakości siano to odpowiednia mieszanka traw z dodatkiem roślin motylkowych oraz z nieznacznym udziałem ziół. 
+
+ -->
+
+</RamblingMan>

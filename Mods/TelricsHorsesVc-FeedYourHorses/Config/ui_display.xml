@@ -1,0 +1,30 @@
+<RamblingMan>
+
+<!-- *** Telrics Horses V2 -->
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+
+<append xpath="/ui_display_info/trader_category_display">
+		<trader_category name="TCVehicles" icon="ui_game_symbol_4x4" display_name="lblCategoryVehicles" />		
+</append>
+
+<append xpath="/ui_display_info/trader_category_display">
+		<trader_category name="TCHorses" icon="ui_game_symbol_telrichorse" display_name="lblCategoryHorses" />		
+</append>
+
+</if>
+</conditional>
+
+<!-- *** Wild West Mod -->
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod')">
+<!-- Wild West Mod V2_WildWestMod -->
+<!-- ui_game_symbol_horse -->
+
+<append xpath="/ui_display_info/trader_category_display">
+		<trader_category name="TCHorses" icon="ui_game_symbol_horse" display_name="lblCategoryHorses" />		
+</append>
+
+</if>
+</conditional>
+</RamblingMan>

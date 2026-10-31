@@ -1,0 +1,115 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2.4.0.0)">
+
+<!-- *** Telrics Horses V2 -->
+
+<!-- *** Change Trader group to TCHorses. -->
+
+<set xpath="/items/item[@name='vehicleLightBrownHorsePlaceable' or 
+@name='vehicleDarkBrownHorsePlaceable' or 
+@name='vehicleMilkBrownHorsePlaceable' or 
+@name='vehicleWhiteDotHorsePlaceable' or 
+@name='vehicleWhiteHorsePlaceable' or 
+@name='vehicleYellowHorsePlaceable']/property[@name='Group']/@value">Science,TCHorses</set>
+
+
+<!-- *** Fuel for horses -->
+
+<append xpath="/items"> 
+<!-- Bundle recipe in campfire -->
+	<item name="HorseMixBundleFTLR">
+		<property name="Extends" value="resourceRockSmallBundle"/>
+		<property name="CustomIcon" value="palletBagCowFeedCapMed"/>
+		<property name="CustomIconTint" value="ff7400"/>
+		<property name="DescriptionKey" value="HorseMixBundleFTLRDesc"/>	
+		<property name="DisplayType" value="food"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="496"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Food/Cooking,CFFood/Cooking,TCHorses"/>
+		<property name="Stacknumber" value="5"/> 
+		<property name="EconomicValue" value="120"/>	
+		<property name="SoundPickup" value="corn_ear_grab"/>
+		<property name="SoundPlace" value="corn_ear_place"/>
+		<property class="Action0">
+			<property name="Create_item" value="HorseMixFTLR"/>
+			<property name="Create_item_count" value="80"/>
+		</property>
+	</item>
+	
+	
+	<!-- Backpack recipe -->
+	<item name="HorseMixFTLR">
+	
+		<!-- check tags -->
+		<property name="Tags" value="fuel,food,foodSkill,fitness,farmerFoodBonus"/>
+		<property name="CustomIcon" value="palletBagCowFeedSingleFlat"/>
+		
+		<property name="CustomIconTint" value="ff7400"/>
+		<property name="DescriptionKey" value="HorseMixDesc"/>	
+		<property name="FuelValue" value="2" />	
+		<property name="HoldType" value="45"/>
+		<property name="DisplayType" value="food"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="125"/> 
+		<property name="EconomicValue" value="30"/>
+		<property name="SellableToTrader" value="false"/>
+		
+		<property name="Group" value="Food/Cooking,CFFood/Cooking,TCHorses"/>
+
+		<!-- <property name="UnlockedBy" value="craftingFood"/> -->
+		<!-- perkMasterChef,foodPumpkinPieSchematic, -->
+		
+		<!-- find sound -->
+		
+		<property name="SoundPickup" value="corn_ear_grab"/>
+		<property name="SoundPlace" value="corn_ear_place"/>
+	<!-- 	<property class="Action0">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Sound_start" value="player_eating"/> -->
+			<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<!-- </property> -->
+	<!-- 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+		<effect_group tiered="false" name="Food Tier 2">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="25">
+				<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		</effect_group> -->
+	</item>	
+	
+	
+</append>
+
+<!-- The number doesn't seem to be doing anything in relation to fuel consumption . -->
+<append xpath="/items/item[@name='foodCropPumpkin']">
+	<property name="FuelValue" value="2" />
+</append>
+
+</if>
+</conditional>
+
+
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod')">
+ 
+<!-- *** Wild West Mod --> 
+ 
+<!-- *** Change Trader group to TCHorses. -->
+
+<append xpath="/items/item[@name='vehicleWWMHorseT1Placeable' or @name='vehicleWWMHorseT2Placeable' or @name='vehicleWWMHorseT2Placeable' or @name='vehicleWWMDinkyDonkeyPlaceable' or @name='vehicleWhiteHorsePlaceable' or @name='vehicleWWMDinkyRacingDonkeyPlaceable']">
+	<property name="Group" value="Science,TCHorses"/>
+</append>
+
+<!-- Check if icon suitable -->
+</if>
+</conditional>
+</RamblingMan>
