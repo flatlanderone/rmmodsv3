@@ -1,7 +1,7 @@
 <RamblingMan>
 
 <conditional>
-<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2.4.0.0)">
+<if cond="mod_loaded('Telrics_Horses_V3')">
 
 <!-- *** Telrics Horses V2 -->
 
@@ -21,13 +21,15 @@
 <!-- Bundle recipe in campfire -->
 	<item name="HorseMixBundleFTLR">
 		<property name="Extends" value="resourceRockSmallBundle"/>
-		<property name="CustomIcon" value="palletBagCowFeedCapMed"/>
-		<property name="CustomIconTint" value="ff7400"/>
+		<!-- <property name="CustomIcon" value="palletBagCowFeedCapMed"/> -->
+		<property name="CustomIcon" value="palletBagFlourCapMed"/>
+		<!-- <property name="CustomIconTint" value="ff7400"/> -->
+		<property name="CustomIconTint" value="b4eeb4"/>
 		<property name="DescriptionKey" value="HorseMixBundleFTLRDesc"/>	
 		<property name="DisplayType" value="food"/>
 		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
-		<property name="EconomicValue" value="496"/>
+		<!-- <property name="EconomicValue" value="496"/> -->
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Food/Cooking,CFFood/Cooking,TCHorses"/>
 		<property name="Stacknumber" value="5"/> 
@@ -46,9 +48,11 @@
 	
 		<!-- check tags -->
 		<property name="Tags" value="fuel,food,foodSkill,fitness,farmerFoodBonus"/>
-		<property name="CustomIcon" value="palletBagCowFeedSingleFlat"/>
+		<!-- <property name="CustomIcon" value="palletBagCowFeedSingleFlat"/> -->
+		<property name="CustomIcon" value="palletBagFlourSingleFlat"/>
 		
-		<property name="CustomIconTint" value="ff7400"/>
+		<!-- <property name="CustomIconTint" value="ff7400"/> -->
+		<property name="CustomIconTint" value="b4eeb4"/>
 		<property name="DescriptionKey" value="HorseMixDesc"/>	
 		<property name="FuelValue" value="2" />	
 		<property name="HoldType" value="45"/>

@@ -1,6 +1,6 @@
 <RamblingMan>
 <conditional>
-<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+<if cond="mod_loaded('Telrics_Horses_V3') and mod_loaded('0-SCore_sphereii')">
 
 <append xpath="/blocks/block[@name='campfire']/property[@class='Workstation']">
 	<property name="CraftingAreaRecipes" value="player,campfire"/>

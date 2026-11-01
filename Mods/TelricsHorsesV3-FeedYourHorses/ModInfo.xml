@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="TelricsHorsesV2-PumpkinFuel" />
-	<DisplayName value="Feed your horses or they won't run - 2.4.1.0" />
-	<Description value="Feed your horses or they won't run - 2.4.1.0. Compatible with version 2.4.0.0." />
+	<Name value="TelricsHorsesV3-FeedYourHorses" />
+	<DisplayName value="Feed your horses" />
+	<Description value="Feed your horses or they won't run!" />
 	<Author value="flatlander" />
-	<Version value="2.4.1.0" />
+	<Version value="3.4.0.1.0.0" />
 	<Website value="https://github.com/flatlanderone" />
+	<NexusMods value="https://github.com/flatlanderone" />
+	<SevenDTDCOM value="https://github.com/flatlanderone" />
+	
 </xml>

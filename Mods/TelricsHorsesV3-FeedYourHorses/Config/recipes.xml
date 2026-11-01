@@ -1,7 +1,7 @@
 <RamblingMan>
 
 <conditional>
-<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+<if cond="mod_loaded('Telrics_Horses_V3') and mod_loaded('0-SCore_sphereii')">
 
 <append xpath="/recipes">
 <!-- Basic Horsemix recipe. Backpack craffting.  -->

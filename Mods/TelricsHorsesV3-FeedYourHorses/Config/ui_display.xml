@@ -2,7 +2,7 @@
 
 <!-- *** Telrics Horses V2 -->
 <conditional>
-<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+<if cond="mod_loaded('Telrics_Horses_V3') and mod_loaded('0-SCore_sphereii')">
 
 <append xpath="/ui_display_info/trader_category_display">
 		<trader_category name="TCVehicles" icon="ui_game_symbol_4x4" display_name="lblCategoryVehicles" />		

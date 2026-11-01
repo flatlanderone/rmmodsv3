@@ -1,7 +1,7 @@
 <RamblingMan>
 
 <conditional>
-<if cond="mod_loaded('Telrics_Horses_V2') and mod_loaded('0-SCore_sphereii')">
+<if cond="mod_loaded('Telrics_Horses_V3') and mod_loaded('0-SCore_sphereii')">
 <!-- 
 	fuelKmPerL	10 	5 gas per 2 km 
 					2,5 gas per 1 km
