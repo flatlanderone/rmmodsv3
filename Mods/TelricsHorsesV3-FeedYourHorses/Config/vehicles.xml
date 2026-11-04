@@ -1,6 +1,9 @@
 <RamblingMan>
 
 <conditional>
+<if cond="modsetting('TelricsHorsesV3-FeedYourHorses', 'Global', 'HorseFeedOptions.catHorseFeedOptionsGeneral.switchHorsesNeedFood') == 'Yes'">
+
+<conditional>
 <if cond="mod_loaded('Telrics_Horses_V3') and mod_loaded('0-SCore_sphereii')">
 <!-- 
 	fuelKmPerL	10 	5 gas per 2 km 
@@ -39,6 +42,11 @@ TODO: add additional fuel types.
 			<property name="fuelType" value="HorseMixFTLR" />
 			<property name="capacity" value="4"/>
 </set>
+
+
+</if>
+</conditional>
+
 
 </if>
 </conditional>
